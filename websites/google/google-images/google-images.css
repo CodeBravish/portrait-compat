@@ -1,0 +1,35 @@
+@media (max-aspect-ratio: 14/16) {
+    #islsp {
+        display: block;
+        position: sticky !important;
+        bottom: -1px !important;
+        top: unset !important;
+        width: 100% !important;
+        height: 38vh !important;
+
+        box-shadow: 0 -16px #171717 !important;
+    }
+    #islsp > div:nth-child(3) {
+        padding-top: 4px !important;
+        height: inherit !important;
+    }
+    #islsp div:nth-child(3)::-webkit-scrollbar {
+        display: none !important;
+    }
+    #islsp .n3VNCb {
+        object-fit: contain;
+        width: auto !important;
+        max-height: calc(30vh - 3rem) !important;
+    }
+    .jZmLbb {
+        height: unset !important;
+    }
+
+    #islmp {
+        width: calc(100vw - 1.05rem) !important;
+    }
+    #islmp .islrc {
+        width: 100%;
+    }
+
+}

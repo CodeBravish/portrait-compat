@@ -1,0 +1,13 @@
+{
+    "name": "Portrait Compat",
+    "description": "Gives portrait friendly compatibility to various popular websites",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts" : [
+        {
+            "matches": ["https://www.google.com/search?q=*&tbm=isch*"],
+            "css": ["./websites/google/google-images/google-images.css"],
+            "js": ["./websites/google/google-images/google-images.js"]
+        }
+    ]
+}
