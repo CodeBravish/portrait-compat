@@ -5,15 +5,13 @@ I have a virtical monitor and the support it has for alot of websites suck which
 Portrait Compat is a browser extension that gives portrait friendly compatibility to various popular websites, I will ofcourse implement adjustments to websites I use but I do hope to fix websites outside of that few as well.
 
 ## Examples
-<div style="display: flex; max-height: 50rem">
-    <div style="padding-right: 1.5rem;">
-        <h3>With Portrait Compat</h3>
-        <img src="https://cdn.discordapp.com/attachments/740692528612769952/983646903688396900/unknown.png">
-    </div>
-    <div>
-        <h3>Without Portrait Compat</h3>
-        <img src="https://cdn.discordapp.com/attachments/740692528612769952/983646904120381460/unknown.png" >
-    </div>
-</div>
+
+    
+### With Portrait Compat
+<img src="https://cdn.discordapp.com/attachments/740692528612769952/983646903688396900/unknown.png" height="500px">
+
+### Without Portrait Compat
+<img src="https://cdn.discordapp.com/attachments/740692528612769952/983646904120381460/unknown.png" height="500px"> 
+
 
 
