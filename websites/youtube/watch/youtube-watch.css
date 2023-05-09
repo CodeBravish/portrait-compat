@@ -1,0 +1,16 @@
+@media( max-width: 1150px) {
+    #secondary {
+        padding-right: 0 !important;
+        width: 336px !important;
+    }
+    #primary {
+        padding-right: 2rem !important;
+        margin-left: 2rem !important;
+    }
+
+    #info {
+        margin: 1rem 0 0 0 !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+}

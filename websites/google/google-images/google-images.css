@@ -2,27 +2,36 @@
     #islsp {
         display: block;
         position: sticky !important;
-        bottom: -1px !important;
+        bottom: 10px !important;
         top: unset !important;
         width: 100% !important;
-        height: 38vh !important;
+        height: 40vh !important;
 
-        box-shadow: 0 -16px #171717 !important;
+
     }
-    #islsp > div:nth-child(3) {
-        padding-top: 4px !important;
-        height: inherit !important;
+    #Sva75c {
+        margin: 16px 10px 16px 10px !important;
+        border-radius: 16px 16px 16px 16px !important;
+        box-shadow: 0 16px #202124, 0 1px 6px 0 #171717;
+        height: 100% !important;
     }
-    #islsp div:nth-child(3)::-webkit-scrollbar {
-        display: none !important;
+    .nHPTn {
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
     }
-    #islsp .n3VNCb {
-        object-fit: contain;
+    .n4hgof {
+        object-fit: contain !important;
         width: auto !important;
-        max-height: calc(30vh - 3rem) !important;
+        max-height: calc(28vh - 3rem) !important;
+        min-height: 0px !important;
     }
-    .jZmLbb {
-        height: unset !important;
+    .r48jcc {
+        max-height: 100% !important;
+        max-width: 100% !important;
+        
+    }
+    .n35rd::-webkit-scrollbar {
+        display: none !important;
     }
 
     #islmp {

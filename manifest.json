@@ -1,13 +1,25 @@
 {
     "name": "Portrait Compat",
     "description": "Gives portrait friendly compatibility to various popular websites",
-    "version": "1.0",
+    "version": "0.1.0",
     "manifest_version": 3,
-    "content_scripts" : [
+    "content_scripts": [
         {
-            "matches": ["https://www.google.com/search?q=*&tbm=isch*"],
+            "matches": ["https://www.google.com/search*&tbm=isch*"],
             "css": ["./websites/google/google-images/google-images.css"],
             "js": ["./websites/google/google-images/google-images.js"]
+        },
+        {
+            "matches": ["https://www.youtube.com/watch?*"],
+            "css": ["./websites/youtube/watch/youtube-watch.css"]
+        },
+        {
+            "matches": ["https://www.twitch.tv/*"],
+            "css": ["./websites/twitch/theater-mode/twitch-theater-mode.css"]
+        },
+        {
+            "matches": ["https://www.tiktok.com/*/video/*"],
+            "css": ["./websites/tiktok/tiktok-player.js"]
         }
     ]
 }
