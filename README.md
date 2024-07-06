@@ -1,8 +1,8 @@
 # Portrait Compat
 
-I have a virtical monitor and the support it has for alot of websites suck which is weird because the aspect ratio of a portrait monitor is similar to a phone, what's up with that mobile first development or whatever?
+I have a vertical monitor and the support it has for a lot of websites suck which is weird because the aspect ratio of a portrait monitor is similar to a phone, what's up with that mobile first development or whatever?
 
-Portrait Compat is a browser extension that gives portrait friendly compatibility to various popular websites, I will ofcourse implement adjustments to websites I use but I do hope to fix websites outside of that few as well.
+Portrait Compat is a browser extension that gives portrait-friendly compatibility to various popular websites, I will of course implement adjustments to websites I use but I do hope to fix websites outside of that few as well.
 
 ## Examples
 
